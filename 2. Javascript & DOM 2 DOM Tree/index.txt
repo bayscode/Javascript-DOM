@@ -1,0 +1,28 @@
+Javascript DOM - DOM Tree
+- simpul paling atas disebut root 
+
+NodeList vs HTML Collection
+
+- Jika kita memilih lebih dari 1 node disebut NodeList(tidak peduli tipe nodenya apa)
+
+- HTML Collection
+|=> kumpulan node tapi yang khusus yang tipenya elemen HTML nya saja.
+
+- Keduanya merupakan kumpulan Node
+- Struktur datanya mirip Array
+- NodeList dapat berisi node apapun, sedangkan
+- HTML Collection harus berisi elemen HTML
+- HTML Collection bersifat live sedangkan NodeList tidak
+
+Struktur Hirarki DOM Tree
+- Root Node
+|=> node yang menjadi sumber dari semua node lain didalam DOM
+- Document
+
+- Parent Node
+|=> Node yang berada 1 tingkat di atas node yang lain
+- body adalah parent dari h1,p,div,dan a
+
+- Child Node
+|=> Node yang berada 1 tingkat dibawah node yang lain
+- h1 adalah child dari body
