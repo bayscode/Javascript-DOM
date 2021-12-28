@@ -1,0 +1,10 @@
+Javascript DOM (Document Object Model)
+|=> Dom adalah antarmuka pemrograman untuk HTML yang merepresentasikan halaman web, sehingga program dapat mengubah dan memanipulasi strukturnya.
+
+- Document(dokumen web)
+- Object(sebuah nilai atau tipe data)
+- Model(representasi)
+|=> Representasi elemen HTML pada dokumen menjadi sebuah Object
+
+- DOM ini, model ini tersimpan sebagai pohon hirarki(DOM Tree)
+? tiap kotak disebut simpul atau node yang bentuknya juga object
