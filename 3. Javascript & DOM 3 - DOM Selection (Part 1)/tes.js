@@ -19,7 +19,7 @@ for (let i = 0; i < paragraf.length; i++) {
 const judulH2 = document.getElementsByTagName('h2');
 judulH2[0].style.color = 'blue';
 
-// getElementByClassName() => car elemen" yang nama class nya apa?
+// getElementByClassName() => car elemen" yang nama class nya apa?)
 // mengembalikkan HTML Collection
 const paragraf1 = document.getElementsByClassName('p1');
 paragraf1[0].style.color = 'violet';

@@ -1,0 +1,9 @@
+// DOM Manipulation
+|- Manipulasi Element
+| - Manipulasi Node
+|
+|=> ^ element.innerHTML = untuk merubah isi dari tag yang sudah diseleksi
+    ^ element.style.<property> = untuk merubah style (merubah css dari sebuah elemen yang sudah diseleksi)
+    ^ element.setAttribute() = untuk memanipulasi atribut dari sebuah elemen  
+    ^ element.classList = secara spesifik akan memanipulasi class (class itu merupakan salah satu atribut)
+    
