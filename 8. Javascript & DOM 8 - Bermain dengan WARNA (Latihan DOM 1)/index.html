@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan DOM</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .biru-muda {
+      background-color: skyblue;
+    }
+
+    .kotak {
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+    }
+
+    .merah {
+      background-color: red;
+      border-radius: 100%;
+    }
+
+    .hijau {
+      background-color: green;
+      border-radius: 100%;
+    }
+
+    .biru {
+      background-color: blue;
+      border-radius: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h1>Bermain dengan warna</h1>
+    <button type="button" id="ubahWarna">Ubah Warna</button>
+  </center>
+  <br>
+  <br>
+
+  <div class="kotak merah"></div>
+  <center>
+    <input type="range" name="sMerah" min="0" max="255">
+  </center>
+
+  <div class="kotak hijau"></div>
+  <center>
+    <input type="range" name="sHijau" min="0" max="255">
+  </center>
+
+  <div class="kotak biru"></div>
+  <center>
+    <input type="range" name="sBiru" min="0" max="255">
+  </center>
+
+  <script src="tes.js"></script>
+</body>
+
+</html>
